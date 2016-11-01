@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LNCT Group of Colleges</string>
+    <string name="mainText">LNCT, Bhopal</string>
+    <string name="slogan">Working towards being the best.</string>
+    <string name="address">Address:</string>
+    <string name="addressValue">On Risen Road, Village, Kalchuri Nagar, Khajuri, Bhopal, Madhya Pradesh"
+       </string>
+    <string name="phone">Phone: 0755 398 5302</string>
+    <string name="email">Email: "admin@lnctgroup.in"</string>
+    <string name="website">Website: www.lnctgroup.in</string>
+    <string name="workingHoursText">Working Hours:  </string>
+    <string name="workingHoursTime"> 9:00 am to 7:00 pm</string>
+    <string name="workingDay">(Monday to Saturday)</string>
+</resources>

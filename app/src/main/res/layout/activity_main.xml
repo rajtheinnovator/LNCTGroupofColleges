@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.lnctgroupofcolleges.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/mainLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:text="@string/mainText"
+            android:textColor="#616161"
+            android:textSize="@dimen/text_size_thirtyTwo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:paddingBottom="8dp"
+            android:text="@string/slogan"
+            android:textColor="#616161"
+            android:textSize="@dimen/text_size_sixteen" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/lnct" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:background="#ffedf0"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:text="Contact Us"
+            android:textColor="@color/contact_us_text_color"
+            android:textSize="@dimen/text_size_twentyFour" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/address1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainLinearLayout"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/address"
+        android:textSize="@dimen/text_size_sixteen" />
+
+    <TextView
+        android:id="@+id/addressValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address1"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/address1"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/addressValue"
+        android:textSize="@dimen/text_size_sixteen" />
+
+    <LinearLayout
+        android:id="@+id/belowAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addressValue"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/phone"
+            android:textSize="@dimen/text_size_sixteen" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-light"
+            android:autoLink="email"
+            android:text="@string/email"
+            android:textSize="@dimen/text_size_sixteen" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/website"
+            android:textSize="@dimen/text_size_sixteen" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/workingHours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/belowAddress"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/workingHoursText"
+        android:textSize="@dimen/text_size_sixteen"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/belowAddress"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/workingHours"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/workingHoursTime"
+        android:textSize="@dimen/text_size_sixteen" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/workingHours"
+        android:layout_toRightOf="@id/workingHours"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/workingDay"
+        android:textSize="@dimen/text_size_sixteen"/>
+</RelativeLayout>
+</ScrollView>
